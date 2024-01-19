@@ -10,9 +10,10 @@ const Nav = () => {
           <img className="logo" src={logoImage} />
         </figure>
         <ul className="nav__link--list">
+
           <li className="nav__link">
             <a
-              href="#"
+              href="/"
               className="
                 nav__link--anchor
                 link__hover-effect
@@ -21,10 +22,11 @@ const Nav = () => {
               About
             </a>
           </li>
+
           <li className="nav__link">
-            <Link to="/Projects">
+        
               <a
-                href="/projects"
+                href="/Projects"
                 className="
                 nav__link--anchor
                 link__hover-effect
@@ -32,11 +34,11 @@ const Nav = () => {
               >
                 Projects
               </a>
-            </Link>
+        
           </li>
           <li className="nav__link click">
             <a
-              href="#"
+              href="/Contact"
               className="
                 nav__link--anchor
                 link__hover-effect

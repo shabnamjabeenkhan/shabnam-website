@@ -3,7 +3,9 @@ import React from 'react';
 const Projects = () => {
     return (
         <div>
-            projects
+            <section id="landing-page">
+        <Nav />
+        </section>
         </div>
     );
 }

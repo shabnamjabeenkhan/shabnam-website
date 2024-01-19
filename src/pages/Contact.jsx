@@ -3,6 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
+                  <section id="landing-page">
+        <Nav />
+       
                  <div className="modal">
           <div className="modal__half modal__about">
               <h3 className="modal__title modal__title--about">Here's a bit about me.</h3>
@@ -66,6 +69,7 @@ const Contact = () => {
              </div>
           </div>
       </div>
+      </section>
         </div>
     );
 }
