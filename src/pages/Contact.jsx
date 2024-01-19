@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Contact = () => {
     return (
@@ -37,7 +38,7 @@ const Contact = () => {
 
           </div>
           <div className="modal__half modal__contact">
-            <i className="fas fa-times modal__exit click" onclick="toggleModal()"></i>
+            {/* <i className="fas fa-times modal__exit click" onclick="toggleModal()"></i> */}
             <h3 className="modal__title modal__title--contact">
                 Let's have a chat!
             </h3>
@@ -47,11 +48,11 @@ const Contact = () => {
             <form id="contact__form" onsubmit="contact(event)">
                 <div className="form__item">
                     <label className="form__item--label">Name</label>
-                    <input className="input" name="user_name" type="text"> </input>
+                    <input className="input" name="user_name" type="text"/> 
                 </div>
                 <div className="form__item">
                     <label className="form__item--label">Email</label>
-                    <input className="input" name="user_email" type="email" > </input>
+                    <input className="input" name="user_email" type="email" />
                 </div>
                 <div className="form__item">
                     <label className="form__item--label">Message</label>
@@ -62,7 +63,7 @@ const Contact = () => {
                 </button>
             </form>
             <div className="modal__overlay modal__overlay--loading">
-                <i className="fas fa-spinner"></i>
+                {/* <i className="fas fa-spinner"></i> */}
             </div>
              <div className="modal__overlay modal__overlay--success">
                 Thanks for the message! Looking forward to speaking to you soon. 
