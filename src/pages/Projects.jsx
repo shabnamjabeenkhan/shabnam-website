@@ -7,8 +7,8 @@ import MoviesImage from "../assets/movies.png";
 import TwitterImage from "../assets/twitter.png";
 import EmailImage from "../assets/email.PNG";
 import SummaristImage from "../assets/summarist.png";
-import ProjectsData from "../projectsData.json";
-
+import { projectsData } from "../projectsData";
+import NFTImage from "../assets/NFT.png"
 
 const Projects = () => {
   return (
@@ -32,11 +32,16 @@ const Projects = () => {
                 data-aos-once="True"
                 data-aos-anchor-placement="top-center"
               >
-                {ProjectsData.map((project) => (
+                {projectsData.map((project) => (
                   <li className="project__2" key={project.id}>
                     <div className="project__wrapper">
-                    {project.image}
-                    <img src={project.image} alt={project.name} />
+                      {/* {project.image} */}
+
+                      <img
+                        className="project__img"
+                        src={project.image}
+                        alt={project.name}
+                      />
                       <div className="project__wrapper--bg"></div>
                       <div className="project__description">
                         <h3 className="project__description--title">
