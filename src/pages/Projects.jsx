@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../components/Nav";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import NFTImage from "../assets/NFT.png";
 import EcommerceImage from "../assets/Ecommerce.PNG";
 import MoviesImage from "../assets/movies.png";
 import TwitterImage from "../assets/twitter.png";
@@ -36,11 +35,8 @@ const Projects = () => {
                 {ProjectsData.map((project) => (
                   <li className="project__2" key={project.id}>
                     <div className="project__wrapper">
-                    <img
-                        src={project.image}
-                        className="project__img"
-                        alt={project.alt}
-                      />
+                    {project.image}
+                    <img src={project.image} alt={project.name} />
                       <div className="project__wrapper--bg"></div>
                       <div className="project__description">
                         <h3 className="project__description--title">
