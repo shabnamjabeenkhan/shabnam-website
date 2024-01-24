@@ -1,17 +1,17 @@
 import React from "react";
 import "../App.css";
-import logoImage from "../assets/logo.png";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import cv from "../assets/cv.pdf";
-import Nav from "../components/Nav";
+
 
 const About = () => {
   return (
     <div>
       <section id="landing-page">
-        <Nav />
+        
         <header className="header">
           <div className="header__content">
             <h1 className="title">Hey,</h1>

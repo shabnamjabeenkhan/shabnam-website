@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div>
       <section id="landing-page">
-        <Nav />
+        
         <section id="projects">
           <div className="container">
             <div className="row">

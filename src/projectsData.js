@@ -16,7 +16,7 @@ export const projectsData = [
   {
       id: 2,
       name: "Ecommerce Website",
-      image: "https://imgur.com/sWcBo1b",
+      image: "https://i.imgur.com/sWcBo1b.png",
       technologies: ["HTML, CSS, JavaScript, ReactJS, Skeleton Loading State, React Routing"],
       "description": "Designed and launched a user-friendly platform allowing readers to quickly grasp core concepts of extensive literary works with AI, achieving an average 95% satisfaction rate based on feedback on accuracy and readability.",
       liveLink: "https://library-react-beige.vercel.app/",
@@ -36,7 +36,7 @@ export const projectsData = [
     {
       id: 4,
       name: "Summarist",
-      image: "https://imgur.com/4kyuZ6s",
+      image: "https://i.imgur.com/4kyuZ6s.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       description: "Summarist is a modern web app with HTML, CSS, JavaScript, and Node.js. Using Redux and Firebase for dynamic user experiences.",
       liveLink: "https://summarist-taupe.vercel.app/",
@@ -46,7 +46,7 @@ export const projectsData = [
     {
       id: 5,
       name: "Twitter Clone",
-      image: "https://imgur.com/HLja75l",
+      image: "https://i.imgur.com/HLja75l.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       description: "  A feature-rich social media platform built using Node.js, HTML, TypeScript, and npm. With React Icons, Redux, firebase, and Tailwind CSS, our platform offers a visually appealing and intuitive user experience.",
       liveLink: "https://twitter-clone-s-j-k123.vercel.app/",
@@ -56,7 +56,7 @@ export const projectsData = [
     {
       id: 6,
       name: "HTML Email Developing",
-      image: "https://imgur.com/0el5zjX",
+      image: "https://i.imgur.com/0el5zjX.png",
       technologies: ["HTML", "CSS"],
       description: " I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
       liveLink: "https://shabnamjabeen1998.wixsite.com/my-site",

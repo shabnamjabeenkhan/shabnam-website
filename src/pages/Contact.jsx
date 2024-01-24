@@ -5,7 +5,6 @@ const Contact = () => {
     return (
         <div>
                   <section id="landing-page">
-        <Nav />
        
                  <div className="modal">
           <div className="modal__half modal__about">
