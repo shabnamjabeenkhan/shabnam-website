@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EcommerceImage from "../assets/Ecommerce.PNG";
