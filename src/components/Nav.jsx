@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="nav-container">
       <nav>
         <figure>
           <img className="logo" src={logoImage} />
