@@ -1,10 +1,10 @@
 import React from "react";
 import "../App.css";
 
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
-import cv from "../assets/cv.pdf";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+// import cv from "../assets/cv.pdf";
 
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="social__list">
+          {/* <div className="social__list">
             <a
               href="https://www.linkedin.com/in/shabnam-khan-269384234/"
               target="_blank"
@@ -41,7 +41,7 @@ const About = () => {
             <a href={cv} target="_blank" className="social__link click">
               <PictureAsPdfIcon />
             </a>
-          </div>
+          </div> */}
         </header>
       </section>
     </div>

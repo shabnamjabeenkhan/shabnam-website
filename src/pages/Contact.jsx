@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 function Contact(){ 
+
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+
     const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -21,6 +24,7 @@ function Contact(){
     }).then((res) => res.json());
 
     if (res.success) {
+        setIsFormSubmitted(true);
       console.log("Success", res);
     }
 };
@@ -40,24 +44,7 @@ function Contact(){
                 
                   I currently work on <b className="orange">difficult developing problems</b>  trying to better my skills. 
               </p>
-              <div className="modal__languages">
-                <figure className="modal__language">
-                    <img className="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt=""/>
-                     <span className="language__name">HTML</span>
-                </figure>
-                <figure className="modal__language">
-                    <img className="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt=""/>
-                    <span className="language__name">CSS</span>
-                </figure>
-                <figure className="modal__language" >
-                    <img className="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt=""/>
-                    <span className="language__name">JavaScript</span>
-                </figure>
-                <figure className="modal__language" >
-                    <img className="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt=""/>
-                    <span className="language__name">React</span>
-                </figure>
-              </div>
+            
 
           </div>
           <div className="modal__half modal__contact">
@@ -88,9 +75,13 @@ function Contact(){
             <div className="modal__overlay modal__overlay--loading">
                 {/* <i className="fas fa-spinner"></i> */}
             </div>
-             <div className="modal__overlay modal__overlay--success">
-                Thanks for the message! Looking forward to speaking to you soon. 
-             </div>
+            <div
+            className={`modal__overlay modal__overlay--success ${
+              isFormSubmitted ? "modal__overlay--visible" : ""
+            }`}
+          >
+            Thanks for the message! Looking forward to speaking to you soon.
+          </div>
           </div>
       </div>
             </section>

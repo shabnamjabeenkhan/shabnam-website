@@ -30,6 +30,11 @@
     min-height: 100vh;
   }
   
+
+  .nav-container{
+    background-color: rgb(245, 245, 245);
+  }
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,15 @@
     margin: 0 auto;
     height: 100px;
     padding: 0 20px;
+    /* background-color: rgb(245, 245, 245); */
   }
+
+
+
+.links {
+  display: flex;
+  align-items: center;
+}
   
   .nav__link--anchor {
     font-size: 16px;
@@ -50,6 +63,9 @@
   
   .nav__link--list {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
   
   .nav__link{
@@ -140,7 +156,7 @@
 
   .modal{
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
@@ -275,6 +291,20 @@
         justify-content: center;
         /* z-index: -1; */
     }
+
+
+    .modal__overlay--success{
+        background-color: #4bb543;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding: 28px;
+     }
+     
+     .modal__overlay--visible{
+         z-index: 1;
+         display: flex;
+     }
 
 
 
