@@ -49,27 +49,30 @@
 
 
 
-.links {
+/* .links {
   display: flex;
   align-items: center;
 }
-  
+   */
   .nav__link--anchor {
     font-size: 16px;
-    color: #242424;
+    color: #100F0F;
     font-weight: 700;
   }
   
   
+
+
   .nav__link--list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;;
     align-items: center;
     width: 100%;
   }
   
   .nav__link{
-    margin-left: 20px;
+ flex: 1;
+ text-align: center;
   }
   
   p{
@@ -91,7 +94,7 @@
   }
   
   .orange{
-    color: #f06449 !important;
+    color: #7B3404 !important;
   }
   
   .header{
@@ -107,7 +110,7 @@
   
   
   .social__link{
-    background-color: #f06449;
+    background-color: #7B3404;
     color: white;
     padding: 6px;
     width: 32px;
@@ -141,7 +144,7 @@
   }
   
   .link__hover-effect--black::after{
-    background-color: #242424;
+    background-color: #100F0F;
   }
   
   .link__hover-effect:hover:after{
@@ -172,7 +175,7 @@
 
 
     .modal__contact{
-        background-color: #242424;
+        background-color: #100F0F;
         color: white;
         /* transform: translateX(110%); */
     }
@@ -235,7 +238,7 @@
     }
     
     .modal__contact{
-        background-color: #242424;
+        background-color: #100F0F;
         color: white;
         /* transform: translateX(110%); */
     }
@@ -259,8 +262,8 @@
     }
     
     .form__submit{
-        background-color: #f06449;
-        border: 2px solid #f06449;
+        background-color: #7B3404;
+        border: 2px solid #7B3404;
         color: white;
         font-weight: 700;
         width: 100%;
@@ -276,8 +279,8 @@
     }
     
     .form__submit:active{
-        border-color: #f06449;
-        color: #f06449;
+        border-color: #7B3404;
+        color: #7B3404;
     }
     
     .modal__overlay{
@@ -311,7 +314,7 @@
     
 input, textarea{
     width: 100%;
-    background-color: #242424;
+    background-color: #100F0F;
     color: white;
     outline: none;
     border: 3px solid #c0c4cc;
@@ -338,7 +341,7 @@ textarea{
 }
 
 .input:focus, textarea:focus{
-    border-color: #f06449;
+    border-color: #7B3404;
 }
 
 

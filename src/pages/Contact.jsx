@@ -58,15 +58,15 @@ function Contact(){
             <form id="contact__form" onSubmit={onSubmit}>
                 <div className="form__item">
                     <label className="form__item--label">Name</label>
-                    <input className="input" name="name" type="text"/> 
+                    <input className="input" name="name" type="text"  required/> 
                 </div>
                 <div className="form__item">
-                    <label className="form__item--label">Email</label>
-                    <input className="input" name="email" type="email" />
+                    <label className="form__item--label" >Email</label>
+                    <input className="input" name="email" type="email" required />
                 </div>
                 <div className="form__item">
                     <label className="form__item--label">Message</label>
-                    <textarea className="input" name="message" type="text" ></textarea>
+                    <textarea className="input" name="message" type="text" required ></textarea>
                             </div>
                               <div className="h-captcha" data-captcha="true"></div>
                             <button type="submit" id="contact__submit" class="form__submit"> Send it my way</button>

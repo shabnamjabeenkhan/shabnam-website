@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -8,6 +8,10 @@ import Navbar from "./components/Navbar";
 import { Link } from "react-router-dom";
 
 const App = () => {
+  useEffect(() => {
+    document.title = 'Shabnam Khan Portfolio Website';
+  
+  }, []);
   return (
     <Router>
       <div>
