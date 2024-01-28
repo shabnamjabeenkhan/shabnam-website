@@ -482,8 +482,7 @@ textarea{
       font-size: 18px;
   }
   .nav__link :first-child{
-      display: none
-      ;
+      display: none;
   }
   .project__description--para{
       display: none;
@@ -501,3 +500,72 @@ textarea{
       padding: 40px;
   }
 }
+
+
+@media(max-width: 798px) {
+    .modal{
+      top: 95px;
+    }
+}
+
+
+
+@media(max-width: 1497px) {
+    .header{
+        top: 80%;
+    }
+}
+
+/* @media(max-width: 862px) {
+    .project__description{
+       padding-right: 40px;
+    }
+} */
+
+
+
+@media(max-width: 725px) {
+    .project__description{
+      left: 32px;
+    }
+}
+
+
+@media(max-width: 412px) {
+    .project__description{
+      left: 20px;
+    }
+}
+
+
+
+/* 
+@media(max-width: 400px) {
+    .project__description{
+       padding: 0px;
+    }
+} */
+
+
+@media(max-width: 412px) {
+    .project__description--title {
+        font-size: 28px;
+    }
+}
+
+
+
+@media(max-width: 400px) {
+    .project__description {
+    left: 4px;
+    }
+}
+
+
+
+@media(max-width: 400px) {
+    .project__description--title{
+   font-size: 20px;
+    }
+}
+
