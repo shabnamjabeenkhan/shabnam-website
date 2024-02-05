@@ -10,7 +10,7 @@ export const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Skeleton Loading State", "React Routing"],
     description: "Transformed a completely static HTML, CSS, Javascript, and React single page application into an interactive user interface using animations, transitions, and carousels.",
     liveLink: "https://shabnam-internship-7gkfpxpsb-s-j-k123.vercel.app/",
-    githubLink: "https://github.com/S-J-K123",
+    githubLink: "https://github.com/shabnamjabeenkhan",
     alt: "NFT Project Image"
   },
   {
@@ -20,7 +20,7 @@ export const projectsData = [
       technologies: ["HTML, CSS, JavaScript, ReactJS, Skeleton Loading State, React Routing"],
       "description": "Designed and launched a user-friendly platform allowing readers to quickly grasp core concepts of extensive literary works with AI, achieving an average 95% satisfaction rate based on feedback on accuracy and readability.",
       liveLink: "https://library-react-beige.vercel.app/",
-      githubLink: "https://github.com/S-J-K123",
+      githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Ecommerce Project Image"
     },
     {
@@ -30,7 +30,7 @@ export const projectsData = [
       technologies: ["HTML, CSS, JavaScript, ReactJS, Skeleton Loading State, React Routing"],
       description: "I created a fully responsive website using HTML, CSS, JavaScript and React with dynamically fetched data. It includes loading states, dynamic filtering, dynamic routing.",
       liveLink: "https://week-6-project.vercel.app/",
-      githubLink: "https://github.com/S-J-K123",
+      githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Movies Project Image"
     },
     {
@@ -40,7 +40,7 @@ export const projectsData = [
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       description: "Summarist is a modern web app with HTML, CSS, JavaScript, and Node.js. Using Redux and Firebase for dynamic user experiences.",
       liveLink: "https://summarist-taupe.vercel.app/",
-      githubLink: "https://github.com/S-J-K123",
+      githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Summarist Project Image"
     },
     {
@@ -50,7 +50,7 @@ export const projectsData = [
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       description: "  A feature-rich social media platform built using Node.js, HTML, TypeScript, and npm. With React Icons, Redux, firebase, and Tailwind CSS, our platform offers a visually appealing and intuitive user experience.",
       liveLink: "https://twitter-clone-s-j-k123.vercel.app/",
-      githubLink: "https://github.com/S-J-K123",
+      githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Twitter Project Image"
     },
     {
@@ -60,7 +60,7 @@ export const projectsData = [
       technologies: ["HTML", "CSS"],
       description: " I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
       liveLink: "https://shabnamjabeen1998.wixsite.com/my-site",
-      githubLink: "https://github.com/S-J-K123",
+      githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Email Project Image"
     }
 
