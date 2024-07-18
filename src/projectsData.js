@@ -62,6 +62,16 @@ export const projectsData = [
       liveLink: "https://shabnamjabeen1998.wixsite.com/my-site",
       githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Email Project Image"
-    }
-
+    },
+ 
+    {
+  id: 7,
+    name: "MAUI Math Game",
+    image: "https://i.imgur.com/DSS1Zzl.png",
+    technologies: ["C#, .Net MAUI, CSS, SQL Lite"],
+    description: "Developed an educational interactive game using MAUI, C# and SQL Lite.",
+    githubLink: "https://github.com/shabnamjabeenkhan/SJKMathGameMuaiApp/tree/master/SJKMathGameMuai",
+    alt: "MAUI Math Game Project Image"
+    },
+  
 ]
