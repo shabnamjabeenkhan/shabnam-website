@@ -1,17 +1,13 @@
 export const projectsData = [
 
-
-
-
   {
     id: 1,
-    name: "NFT",
-    image: "https://i.imgur.com/iWxFLcg.png", 
-    technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Skeleton Loading State", "React Routing"],
-    description: "Transformed a completely static HTML, CSS, Javascript, and React single page application into an interactive user interface using animations, transitions, and carousels.",
-    liveLink: "https://shabnam-internship-7gkfpxpsb-s-j-k123.vercel.app/",
-    githubLink: "https://github.com/shabnamjabeenkhan",
-    alt: "NFT Project Image"
+    name: "MAUI Math Game",
+    image: "https://i.imgur.com/DSS1Zzl.png",
+    technologies: ["C#, .Net MAUI, CSS, SQL Lite"],
+    description: "Developed an educational interactive game using MAUI, C# and SQL Lite.",
+    githubLink: "https://github.com/shabnamjabeenkhan/SJKMathGameMuaiApp/tree/master/SJKMathGameMuai",
+    alt: "MAUI Math Game Project Image"
   },
   {
       id: 2,
@@ -23,18 +19,8 @@ export const projectsData = [
       githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Ecommerce Project Image"
     },
-    {
+  {
       id: 3,
-      name: "Movies API",
-      image: "https://i.imgur.com/24IdQt4.png",
-      technologies: ["HTML, CSS, JavaScript, ReactJS, Skeleton Loading State, React Routing"],
-      description: "I created a fully responsive website using HTML, CSS, JavaScript and React with dynamically fetched data. It includes loading states, dynamic filtering, dynamic routing.",
-      liveLink: "https://week-6-project.vercel.app/",
-      githubLink: "https://github.com/shabnamjabeenkhan",
-      alt: "Movies Project Image"
-    },
-    {
-      id: 4,
       name: "Summarist",
       image: "https://i.imgur.com/4kyuZ6s.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
@@ -43,8 +29,33 @@ export const projectsData = [
       githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Summarist Project Image"
     },
+
+  {
+      id: 4,
+      name: "NFT",
+      image: "https://i.imgur.com/iWxFLcg.png", 
+      technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Skeleton Loading State", "React Routing"],
+      description: "Transformed a completely static HTML, CSS, Javascript, and React single page application into an interactive user interface using animations, transitions, and carousels.",
+      liveLink: "https://shabnam-internship-7gkfpxpsb-s-j-k123.vercel.app/",
+      githubLink: "https://github.com/shabnamjabeenkhan",
+      alt: "NFT Project Image"
+        },
+
     {
       id: 5,
+      name: "Movies API",
+      image: "https://i.imgur.com/24IdQt4.png",
+      technologies: ["HTML, CSS, JavaScript, ReactJS, Skeleton Loading State, React Routing"],
+      description: "I created a fully responsive website using HTML, CSS, JavaScript and React with dynamically fetched data. It includes loading states, dynamic filtering, dynamic routing.",
+      liveLink: "https://week-6-project.vercel.app/",
+      githubLink: "https://github.com/shabnamjabeenkhan",
+      alt: "Movies Project Image"
+    },
+  
+
+
+    {
+      id: 6,
       name: "Twitter Clone",
       image: "https://i.imgur.com/HLja75l.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
@@ -53,25 +64,15 @@ export const projectsData = [
       githubLink: "https://github.com/shabnamjabeenkhan",
       alt: "Twitter Project Image"
     },
-    {
-      id: 6,
-      name: "HTML Email Developing",
-      image: "https://i.imgur.com/0el5zjX.png",
-      technologies: ["HTML", "CSS"],
-      description: " I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
-      liveLink: "https://shabnamjabeen1998.wixsite.com/my-site",
-      githubLink: "https://github.com/shabnamjabeenkhan",
-      alt: "Email Project Image"
-    },
- 
-    {
-  id: 7,
-    name: "MAUI Math Game",
-    image: "https://i.imgur.com/DSS1Zzl.png",
-    technologies: ["C#, .Net MAUI, CSS, SQL Lite"],
-    description: "Developed an educational interactive game using MAUI, C# and SQL Lite.",
-    githubLink: "https://github.com/shabnamjabeenkhan/SJKMathGameMuaiApp/tree/master/SJKMathGameMuai",
-    alt: "MAUI Math Game Project Image"
-    },
   
+        {
+          id: 7,
+          name: "HTML Email Developing",
+          image: "https://i.imgur.com/0el5zjX.png",
+          technologies: ["HTML", "CSS"],
+          description: " I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
+          liveLink: "https://shabnamjabeen1998.wixsite.com/my-site",
+          githubLink: "https://github.com/shabnamjabeenkhan",
+          alt: "Email Project Image"
+        },
 ]
