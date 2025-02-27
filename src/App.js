@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import { projectsData } from "./projectsData";
 import Navbar from "./components/Navbar";
 import { Link } from "react-router-dom";
+import Home from "./pages/Home";
 
 const App = () => {
   useEffect(() => {
@@ -17,7 +18,8 @@ const App = () => {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<About />} />
+        <Route path="/" element={<Home/>} />
+          <Route path="/About" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>

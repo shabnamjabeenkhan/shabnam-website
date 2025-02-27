@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  /* background-color: #f5f5f5; */
 }
 
 .logo {
@@ -43,14 +44,9 @@ nav {
   margin: 0 auto;
   height: 100px;
   padding: 0 20px;
-  /* background-color: rgb(245, 245, 245); */
+
 }
 
-/* .links {
-  display: flex;
-  align-items: center;
-}
-   */
 .nav__link--anchor {
   font-size: 16px;
   color: #100f0f;
@@ -68,6 +64,13 @@ nav {
   flex: 1;
   text-align: center;
 }
+
+/* ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+} */
 
 p {
   line-height: 1.5;
@@ -329,11 +332,14 @@ textarea:focus {
 .section__title {
   text-align: center;
   font-size: 48px;
-  margin-bottom: -63px;
+  /* margin-bottom: -63px; */
+  /* padding-top: 32px; */
+  padding-top: 100px;
 }
 
 .project__2 {
-  margin-top: 80px;
+  /* margin-top: 80px; */
+  margin-bottom: 48px;
 }
 
 .project__img {
@@ -415,10 +421,11 @@ textarea:focus {
   padding: 32px;
 }
 
+
 /* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
   .title {
-    font-size: 80px;
+    font-size: 40px;
   }
   .header__para {
     font-size: 20px;
@@ -449,9 +456,9 @@ textarea:focus {
   .header__para {
     font-size: 18px;
   }
-  .nav__link :first-child {
+  /* .nav__link :first-child {
     display: none;
-  }
+  } */
   .project__description--para {
     display: none;
   }
@@ -469,9 +476,17 @@ textarea:focus {
   }
 }
 
+
+
+
 @media (max-width: 798px) {
   .modal {
     top: 95px;
+  }
+}
+@media (max-width: 380px) {
+  .modal {
+    top: 197px;
   }
 }
 
@@ -481,24 +496,32 @@ textarea:focus {
   }
 }
 
+/* 
 @media (max-width: 770px) {
   .header {
     top: 68%;
     left: 56%;
   }
-}
+} */
 
 @media (max-width: 770px) {
+  .header {
+      top: 40%;
+      left: 51%;
+  }
+}
+
+/* @media (max-width: 770px) {
     .header {
       top: 68%;
       left: 56%;
     }
-  }
+  } */
 
   @media (max-width: 420px){
     .header {
-    top: 36%;
-    left: 51%;
+      top: 62%;
+      left: 54%;
   }
 
 }
@@ -553,3 +576,35 @@ textarea:focus {
     font-size: 20px;
   }
 }
+
+
+
+@media(max-width: 387px){
+  .nav__link--list {
+    flex-direction: column;
+    padding-top: 85px;
+    
+  }
+  
+}
+
+
+@media(max-width: 387px){
+  .nav__link--anchor {
+  font-size: 24px;
+    
+  }
+  
+}
+
+
+
+@media(max-width: 387px){
+  .nav__link {
+  padding: 8px;
+    
+  }
+  
+}
+
+
